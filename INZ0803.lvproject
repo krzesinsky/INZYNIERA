@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="D0AAB728AB94D858D95CDF7E1CEA26B47F40BE1043CF2C92FE9E856120B8E89B631A9E26AD43A023DC88260EAD3F024ACCEEF08EA408BA9515C995BEEE3D2319" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="264B1777BF8C988425DDA248ABA3025D9BBCB4087EEC05C748B95C7F627BA214F9FE38259B1570228AD84139F00FC4B1D9A4AB6B151817632282913F8D5EDB00" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -225,6 +226,7 @@
 				<SourceFileReference Bindings="EnvoyManager" Id="e5d6286e59f44dcbb095cdb7ebada32b" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-utilities-src-20.5.0.niaddon" StoragePath="ref://NI/Skyline/utilities-src/20.5.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="9203770799a74a5eb39dbe95f4a6faec" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-visa-base-src-20.0.0.niaddon" StoragePath="ref://NI/VISA/Base-src/20.0.0" />
 			</EmbeddedDefinitionReference>
+			<SourceFileReference Bindings="EnvoyManager" Id="7aed6bdaa8b94c709aea492f9847072e" ModelDefinitionType="{http://www.ni.com/Data}DataIndexDefinition" Name="data.xml" StoragePath="NI Project Data\data.xml" />
 		</NameScopingEnvoy>
 		<SourceFileReference Id="2d87bc69228f4c2ba26362166ec3daa0" ModelDefinitionType="SystemManagementDefinition" Name="SystemDesigner" StoragePath="SystemDesigner" />
 	</Project>

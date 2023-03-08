@@ -3,6 +3,8 @@
 
 BYLA PETLA NA POCZATKU!!!!!!!!!!!
 
+DO POBRANIA LABVIEW I TEST CHUJSTWA
+
 sprawdzić jak zachowuje sie aperture time
 
 dlaczego 100PLC to 2s a aperture time jest do 1s
