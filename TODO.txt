@@ -1,0 +1,39 @@
+08.03
+-----
+
+BYLA PETLA NA POCZATKU!!!!!!!!!!!
+
+sprawdzić jak zachowuje sie aperture time
+
+dlaczego 100PLC to 2s a aperture time jest do 1s
+
+voltage bandwidth co to i gdzie to znalezc?
+
+input z/automatic impedance (en/dis)
+
+Definicja z opisu kontrolki:
+Disables or enables automatic input impedance mode for DC voltage and ratio measurements.
+Valid Values:
+Enable
+Disable
+Default Value:
+Disable
+
+Definicja z manuala (49 str) Front Panel Menu Reference:
+Input Z: 10Mohm (default) or HighZ (> 10Gohm)
+
+sprawdzic jak dziala Range (czy jest opcja ustawienia innych wartosci niz te wyswietlane)
+
+co to absolute resolution i gdzie to sie ustawia
+
+ sprawdzic auto zero czy nie ma pojedynczego zera (once)
+
+ Enables or disables the autozero mode.
+
+Valid Values:
+0 - Disable: The instrument uses the last measured zero measurement and subtracts it from each measurement. It takes a new zero measurement each time you change the function, range or integration time.
+1 - Enable: The DMM internally measures the offset following each measurement. It then subtracts that measurement from the preceding reading. This prevents offset voltages present on the DMM's input circuitry from affecting measurement accuracy.
+2 - Once: The instrument takes one zero measurement and sets autozero OFF. The zero measurement taken is used for all subsequent measurements until the next change to the function, range or integration time. If the specified integration time is less than 1 PLC, the zero measurement is taken at 1 PLC to optimize noise rejection. Subsequent measurements are taken at the specified fast (< 1 PLC) integration time.
+
+Default Value:
+1 - Enable
